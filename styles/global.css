@@ -1,6 +1,8 @@
-/* * {
-
-} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 :root {
     /* colors */
@@ -17,6 +19,29 @@
     ----font-family: "Poppins", sans-serif;
     --text-lg: bold 32px/125% var(----font-family);
     --text-md: 14px/170% var(----font-family);
-
+    --text: 16px/150% var(----font-family);
     --text-sm: 12px/170% var(----font-family);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color-secondary);
+    font: var(--text); /* Trocar para a fonte normal */
+}
+
+.bg-surface-color {
+    background-color: var(--surface-color);    
+}
+
+.container {
+    margin-inline: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-secondary);
+}
+
+a:hover {
+    color: var(--brand-color);
 }
