@@ -10,8 +10,7 @@ nav {
 .primary-menu {
     display: flex;
     align-items: center;
-    list-style: none;
-
+    
     gap: 24px;
 }
 

@@ -26,7 +26,7 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color-secondary);
-    font: var(--text); /* Trocar para a fonte normal */
+    font: var(--text-md); /* Trocar para a fonte normal */
 }
 
 .bg-surface-color {
@@ -44,4 +44,8 @@ a {
 
 a:hover {
     color: var(--brand-color);
+}
+
+ul {
+    list-style: none;
 }
